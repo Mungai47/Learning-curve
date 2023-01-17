@@ -1,0 +1,130 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+    
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    font-size: 15px;
+    font-weight: 500;
+    
+    margin: 0px;
+    padding: 0px;
+}
+
+.container1 {
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    margin: 0 auto;
+    height: 100px;
+    width: 70%;
+    display: flex;
+    position:-webkit-sticky;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+    
+    
+    
+}
+.container1 .inner-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 20%;
+}
+.inner-class .nav-item {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 20px;
+}
+.container2 {
+    background-color: #F4EAD5;
+    padding: 0px;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.container2 .inner-container2{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.container3 {
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+    
+}
+
+.container3 .inner-container3{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.btn{
+    margin: 5px 0;
+    align-items: center;
+}
+
+.container4 {
+    background-color: #439A97;
+    padding: 0px;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+    
+}
+.container4 .inner-container4{
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
